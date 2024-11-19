@@ -23,19 +23,19 @@ public class Caneta {
         return this.ponta;
     }
     
-   public void setPonta(float p) {
+    public void setPonta(float p) {
        this.ponta = p;
    }
    
-   public void tampar(){
+    public void tampar(){
        this.tampada = true;
    }
    
-   public void destampar() {
+    public void destampar() {
        this.tampada = false;
    }
    
-   public void status() {
+    public void status() {
        System.out.println("SOBRE A CANETA: ");
        System.out.println("Modelo: " + this.getModelo());
        System.out.println("Ponta: " + this.getPonta());
